@@ -15,6 +15,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let nib = UINib(nibName: "DemoTableViewCell", bundle: nil)
+        tableView.register(nib, forCellReuseIdentifier: "DemoTableViewCell")
         tableView.delegate = self
         tableView.dataSource = self
         
@@ -26,9 +28,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = myData[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "DemoTableViewCell",
+                                                 for: indexPath) as! DemoTableViewCell
         
+        cell.myLabel.text = myData[indexPath.row]
+        cell.myImageView.backgroundColor = .red
         return cell
     }
     

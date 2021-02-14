@@ -8,6 +8,10 @@
 import UIKit
 
 class DemoTableViewCell: UITableViewCell {
+    
+    @IBOutlet var myLabel: UILabel!
+    @IBOutlet var myImageView: UIImageView!
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
