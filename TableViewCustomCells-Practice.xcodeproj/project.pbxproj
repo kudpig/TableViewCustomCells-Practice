@@ -15,6 +15,8 @@
 		8FD7C3F325D8E10F00D632F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD7C3F125D8E10F00D632F0 /* LaunchScreen.storyboard */; };
 		8FD7C3FE25D8E11000D632F0 /* TableViewCustomCells_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD7C3FD25D8E11000D632F0 /* TableViewCustomCells_PracticeTests.swift */; };
 		8FD7C40925D8E11000D632F0 /* TableViewCustomCells_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD7C40825D8E11000D632F0 /* TableViewCustomCells_PracticeUITests.swift */; };
+		8FD7C41B25D8E85700D632F0 /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD7C41925D8E85700D632F0 /* DemoTableViewCell.swift */; };
+		8FD7C41C25D8E85700D632F0 /* DemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FD7C41A25D8E85700D632F0 /* DemoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8FD7C40425D8E11000D632F0 /* TableViewCustomCells-PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableViewCustomCells-PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD7C40825D8E11000D632F0 /* TableViewCustomCells_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCustomCells_PracticeUITests.swift; sourceTree = "<group>"; };
 		8FD7C40A25D8E11000D632F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD7C41925D8E85700D632F0 /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
+		8FD7C41A25D8E85700D632F0 /* DemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				8FD7C3E825D8E10E00D632F0 /* SceneDelegate.swift */,
 				8FD7C3EA25D8E10E00D632F0 /* ViewController.swift */,
 				8FD7C3EC25D8E10E00D632F0 /* Main.storyboard */,
+				8FD7C41925D8E85700D632F0 /* DemoTableViewCell.swift */,
+				8FD7C41A25D8E85700D632F0 /* DemoTableViewCell.xib */,
 				8FD7C3EF25D8E10F00D632F0 /* Assets.xcassets */,
 				8FD7C3F125D8E10F00D632F0 /* LaunchScreen.storyboard */,
 				8FD7C3F425D8E10F00D632F0 /* Info.plist */,
@@ -233,6 +239,7 @@
 			files = (
 				8FD7C3F325D8E10F00D632F0 /* LaunchScreen.storyboard in Resources */,
 				8FD7C3F025D8E10F00D632F0 /* Assets.xcassets in Resources */,
+				8FD7C41C25D8E85700D632F0 /* DemoTableViewCell.xib in Resources */,
 				8FD7C3EE25D8E10E00D632F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			files = (
 				8FD7C3EB25D8E10E00D632F0 /* ViewController.swift in Sources */,
 				8FD7C3E725D8E10E00D632F0 /* AppDelegate.swift in Sources */,
+				8FD7C41B25D8E85700D632F0 /* DemoTableViewCell.swift in Sources */,
 				8FD7C3E925D8E10E00D632F0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
