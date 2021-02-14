@@ -47,7 +47,7 @@
                 <outlet property="myImageView" destination="1oS-n0-IV7" id="iI0-7T-MXG"/>
                 <outlet property="myLabel" destination="LMP-41-h0r" id="tBp-FF-4qM"/>
             </connections>
-            <point key="canvasLocation" x="636" y="-8"/>
+            <point key="canvasLocation" x="73" y="12"/>
         </tableViewCell>
     </objects>
     <resources>
